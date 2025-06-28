@@ -68,11 +68,13 @@ function App() {
       </div>
 
       <h3>Laps</h3>
-      <ol>
-        {laps.map((lap, index) => (
-          <li key={index}>{lap}</li>
-        ))}
-      </ol>
+    
+      <ul>
+  {laps.map((lap, index) => (
+    <li key={index}>{lap}</li>
+  ))}
+</ul>
+
     </div>
   );
 }
